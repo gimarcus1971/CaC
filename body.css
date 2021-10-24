@@ -1,0 +1,138 @@
+  .parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .text {
+    color: yellow;
+    text-decoration-color: dark;
+    text-shadow: dark;
+  }
+  .text-footer {
+    color: black;
+    text-decoration-color: white;
+    text-shadow: white;
+
+  }
+
+  /*IMAGEN DE FONDO DE PAGINA*/
+  body {
+  background-image: url("fondo-vivo-css.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  /*PIE DE PAGINA*/
+  footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    padding: 1em;
+    }
+
+  /*MENU DESPLEGABLE CONTACTOS*/
+  .icon-bar {
+    width: 100%;
+    background-color: cadetblue;
+    overflow: auto;
+    height: auto;
+  }
+
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 14px 0;
+    transition: all 0.2s ease;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+  }
+
+  .icon-bar a:hover {
+    background-color: white;
+  }
+
+  /*TARJETAS DE INFORMACION*/
+  .html {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
+
+  .css {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+      }
+
+  .bootstrap {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
+
+  .javascript {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
+
+  .vscode {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
+
+  .figma {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
+
+  .schemes {
+      color: secondary;
+      background-color: white;
+      padding: 1em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 16px;
+    }
